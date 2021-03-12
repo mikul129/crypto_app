@@ -48,13 +48,6 @@ Response body:<br />
   ]
 }
 ```
-Response headers:<br />
-```json
-content-length: 144 
-content-type: application/json 
-date: Fri,12 Mar 2021 08:31:07 GMT 
-server: uvicorn 
-```
 
 ### POST /encode<br />
 Example<br />
@@ -96,13 +89,6 @@ Response body:<br />
     "0x2018bea43a60f35bb8823f4"
   ]
 }
-```
-Response headers:<br />
-```json
-content-length: 574 
-content-type: application/json 
-date: Fri,12 Mar 2021 08:44:06 GMT 
-server: uvicorn 
 ```
 
 ### POST /decode<br />
@@ -146,13 +132,6 @@ Response body:<br />
 {
   "original_text": "Lorem ipsum dolor..."
 }
-```
-Response headers:<br />
-```json
-content-length: 40 
-content-type: application/json 
-date: Fri,12 Mar 2021 08:47:00 GMT 
-server: uvicorn 
 ```
 
 ## Contact
