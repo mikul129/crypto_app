@@ -36,7 +36,7 @@ Example<br />
 Request URL:<br /> 'http://127.0.0.1:8000/generate_keys'<br />
 
 Response body:<br />
-'{
+'''{
   "public_key": [
     "0x1d79b5325aa056f224dc81f",
     "0x36c2c5873b3ec72266122af"
@@ -45,7 +45,7 @@ Response body:<br />
     "0x2030417d240fb7322c340cf",
     "0x36c2c5873b3ec72266122af"
   ]
-}'<br />
+}'''<br />
 
 `POST /encode`<br />
 `POST /decode`<br />
