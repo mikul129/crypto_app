@@ -48,6 +48,13 @@ Response body:<br />
   ]
 }
 ```
+Response header:<br />
+```json
+content-length: 144 
+content-type: application/json 
+date: Fri,12 Mar 2021 08:31:07 GMT 
+server: uvicorn 
+```
 
 `POST /encode`<br />
 `POST /decode`<br />
