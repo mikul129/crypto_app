@@ -45,7 +45,7 @@ Response body:<br />
     "0x2030417d240fb7322c340cf",
     "0x36c2c5873b3ec72266122af"
   ]
-}```<br />
+}```
 
 `POST /encode`<br />
 `POST /decode`<br />
