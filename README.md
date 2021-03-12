@@ -11,7 +11,7 @@ If you want to run the application, all you have to do is enter the project fold
 
 The API aplication works at 'http://127.0.0.1:8000/'
 
-## Authorization
+## Authorization API
 
 Api has HTTP Basic Auth for simple authorization. Default authorization data:<br />
 Login: user<br />
@@ -19,10 +19,9 @@ Password: pass<br />
 
 ## API methods
 
-
 `POST /decode`
-
-
+`POST /encode`
+`GET /generate_keys`
 
 ## Contact
 mikulski.michal2@gmail.com
