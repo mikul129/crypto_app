@@ -48,7 +48,7 @@ Response body:<br />
   ]
 }
 ```
-Response header:<br />
+Response headers:<br />
 ```json
 content-length: 144 
 content-type: application/json 
@@ -57,7 +57,103 @@ server: uvicorn
 ```
 
 ### POST /encode<br />
+Example<br />
+Request URL:<br /> 'http://127.0.0.1:8000/encode'<br />
+
+Request body:<br />
+```json
+{
+  "original_text": "Lorem ipsum dolor...",
+  "public_key": [
+    "0x1d79b5325aa056f224dc81f",
+    "0x36c2c5873b3ec72266122af"
+  ]
+}
+```
+Response body:<br />
+```json
+{
+  "encode_text": [
+    "0x2dfb921b29ba5e0fb5e68cc",
+    "0x2830711e86a1a230ff0f113",
+    "0x34de023baa46994e7ac786e",
+    "0x1af2c75bd6739600e44b96b",
+    "0x250a5f0e0f7f593ce5db336",
+    "0xd9f1fb45e13d90e45cdece",
+    "0x24c4df12ed2a51488496be",
+    "0x34551d532776a8075aaf77c",
+    "0x12e7cc9dc0f26fc0a1dd275",
+    "0x1cd4f2c9fc078c1ed943f5b",
+    "0x250a5f0e0f7f593ce5db336",
+    "0xd9f1fb45e13d90e45cdece",
+    "0x34481ff70651c2dcc798392",
+    "0x2830711e86a1a230ff0f113",
+    "0x14f7ddda723111d9107c28c",
+    "0x2830711e86a1a230ff0f113",
+    "0x34de023baa46994e7ac786e",
+    "0x2018bea43a60f35bb8823f4",
+    "0x2018bea43a60f35bb8823f4",
+    "0x2018bea43a60f35bb8823f4"
+  ]
+}
+```
+Response headers:<br />
+```json
+content-length: 574 
+content-type: application/json 
+date: Fri,12 Mar 2021 08:44:06 GMT 
+server: uvicorn 
+```
+
 ### POST /decode<br />
+Example<br />
+Request URL:<br /> 'http://127.0.0.1:8000/decode'<br />
+
+Request body:<br />
+```json
+{
+  "encode_text": [
+    "0x2dfb921b29ba5e0fb5e68cc",
+    "0x2830711e86a1a230ff0f113",
+    "0x34de023baa46994e7ac786e",
+    "0x1af2c75bd6739600e44b96b",
+    "0x250a5f0e0f7f593ce5db336",
+    "0xd9f1fb45e13d90e45cdece",
+    "0x24c4df12ed2a51488496be",
+    "0x34551d532776a8075aaf77c",
+    "0x12e7cc9dc0f26fc0a1dd275",
+    "0x1cd4f2c9fc078c1ed943f5b",
+    "0x250a5f0e0f7f593ce5db336",
+    "0xd9f1fb45e13d90e45cdece",
+    "0x34481ff70651c2dcc798392",
+    "0x2830711e86a1a230ff0f113",
+    "0x14f7ddda723111d9107c28c",
+    "0x2830711e86a1a230ff0f113",
+    "0x34de023baa46994e7ac786e",
+    "0x2018bea43a60f35bb8823f4",
+    "0x2018bea43a60f35bb8823f4",
+    "0x2018bea43a60f35bb8823f4"
+  ],
+  "private_key": [
+    "0x2030417d240fb7322c340cf",
+    "0x36c2c5873b3ec72266122af"
+  ]
+}
+```
+Response body:<br />
+
+```json
+{
+  "original_text": "Lorem ipsum dolor..."
+}
+```
+Response headers:<br />
+```json
+content-length: 40 
+content-type: application/json 
+date: Fri,12 Mar 2021 08:47:00 GMT 
+server: uvicorn 
+```
 
 ## Contact
 mikulski.michal2@gmail.com
