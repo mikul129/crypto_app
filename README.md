@@ -6,9 +6,8 @@ The RSA algorithm is an asymmetric cryptography algorithm; this means that it us
 
 ## Documentation
 
-Documentation created with the sphinx tool.
-
-Documentation is in path docs\index.html.![documentation_part](https://user-images.githubusercontent.com/41323564/110986932-a0a8f280-836e-11eb-8986-4fff17784e94.png)
+Documentation created with the Sphinx tool. To run the documentation, open the file in docs / index.html. The documentation page looks like this:
+![documentation_part](https://user-images.githubusercontent.com/41323564/110986932-a0a8f280-836e-11eb-8986-4fff17784e94.png)
 
 
 ## Files
