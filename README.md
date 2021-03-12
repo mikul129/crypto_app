@@ -9,7 +9,7 @@ If you want to run the application, all you have to do is enter the project fold
 `docker-compose build`<br />
 `docker-compose up`
 
-The API aplication works at http://127.0.0.1:8000/
+The API aplication works at 'http://127.0.0.1:8000/'
 
 ## Contact
 mikulski.michal2@gmail.com
