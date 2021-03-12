@@ -31,7 +31,7 @@ Login: user<br />
 Password: pass<br />
 
 ## API methods
-`GET /generate_keys`<br />
+###`GET /generate_keys`<br />
 Example<br />
 Request URL:<br /> 'http://127.0.0.1:8000/generate_keys'<br />
 
