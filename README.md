@@ -31,7 +31,7 @@ Login: user<br />
 Password: pass<br />
 
 ## API methods
-###`GET /generate_keys`<br />
+###GET /generate_keys<br />
 Example<br />
 Request URL:<br /> 'http://127.0.0.1:8000/generate_keys'<br />
 
@@ -56,8 +56,8 @@ date: Fri,12 Mar 2021 08:31:07 GMT
 server: uvicorn 
 ```
 
-`POST /encode`<br />
-`POST /decode`<br />
+###POST /encode<br />
+###POST /decode<br />
 
 ## Contact
 mikulski.michal2@gmail.com
