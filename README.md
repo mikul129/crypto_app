@@ -4,6 +4,13 @@
  
 The RSA algorithm is an asymmetric cryptography algorithm; this means that it uses a public key and a private key (i.e two different, mathematically linked keys). As their names suggest, a public key is shared publicly, while a private key is secret and must not be shared with anyone. [more about RSA](https://www.educative.io/edpresso/what-is-the-rsa-algorithm)
 
+## Documentation
+
+Documentation created with the sphinx tool.
+
+Documentation is in path docs\index.html.![documentation_part](https://user-images.githubusercontent.com/41323564/110986932-a0a8f280-836e-11eb-8986-4fff17784e94.png)
+
+
 ## Files
 
 app/main.py - file with api methods<br />
