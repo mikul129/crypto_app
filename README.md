@@ -6,7 +6,7 @@ The RSA algorithm is an asymmetric cryptography algorithm; this means that it us
 
 ## Documentation
 
-Documentation created with the Sphinx tool. To run the documentation, open the file in docs / index.html. Example page looks like this:
+Documentation created with the Sphinx tool. To run the documentation, open the link https://mikul129.github.io/crypto_app/ or docs / index.html. Example page looks like this:
 ![documentation_part](https://user-images.githubusercontent.com/41323564/110986932-a0a8f280-836e-11eb-8986-4fff17784e94.png)
 
 
