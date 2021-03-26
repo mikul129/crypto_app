@@ -20,8 +20,9 @@ app/unit_tests.py - aplication unit tests<br />
 app/sphinx - folder with files for generate documentation<br />
 docker-compose.yml - docker compose configuration<br />
 Dockerfile - file docker for image configuration
+requirements.txt - file with used libraries
 
-## Library
+## Libraries
 
 fastapi==0.63.0
 
