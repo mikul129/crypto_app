@@ -12,10 +12,12 @@ Documentation created with the Sphinx tool. To run the documentation, open the l
 
 ## Files
 
+dosc - folder with documentation files<br />
 app/main.py - file with api methods<br />
 app/RSA.py - file with encode and decode methods<br />
 app/RSA_key_generator.py - file for public and private keys generator<br />
 app/unit_tests.py - aplication unit tests<br />
+app/sphinx - folder with files for generate documentation<br />
 docker-compose.yml - docker compose configuration<br />
 Dockerfile - file docker for image configuration
 
